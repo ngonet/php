@@ -12,6 +12,4 @@ if ($conn->connect_error) {
 }
 echo "Connected successfully";
 
-mysqli_debug("d:t:o,/tmp/client.trace");
 ?>
-Hola mysqli

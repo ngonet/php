@@ -25,7 +25,7 @@ $i = 0;
  */
 $i++;
 /* Authentication type */
-$cfg['Servers'][$i]['auth_type'] = 'cookie';
+$cfg['Servers'][$i]['auth_type'] = 'config';
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = 'mycluster';
 $cfg['Servers'][$i]['compress'] = false;
