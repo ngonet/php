@@ -1,9 +1,4 @@
 <?php 
-
-echo "<pre>";
-print_r(get_loaded_extensions());
-echo "<pre/>";
-
 $servername = "mycluster";
 $username = "ngo";
 $password = "password";
@@ -18,6 +13,5 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
 mysqli_debug("d:t:o,/tmp/client.trace");
-
 ?>
 Hola mysqli
